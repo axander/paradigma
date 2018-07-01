@@ -1,0 +1,91 @@
+label{
+	font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*spinner*/
+#spinner{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .8);
+}
+.basicOuter{
+	display:table;
+	width:100%;
+	height:100%;
+}
+.basicInner{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align: middle;
+	text-align:center;
+}
+/*phone list container and items*/
+.phone-item{
+    border: 2px dotted #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.phone-image-item{
+	padding-top:20px;
+    height: 100px;
+}
+.phone-name-item{
+	font-weight: bold;
+	font-size: 20px;
+}
+.phone-pvp-item{
+	font-size: 25px;
+	color:orangered;
+}
+/*phone details*/
+.phone-details-item{
+	cursor:pointer;
+	text-align: right;
+	color:orangered;
+	padding-top:20px;
+}
+.phone-details-item:hover{
+	opacity:.5;
+}
+.details-show{
+	left:0%;
+	background: #eee;
+}
+.details-hide{
+	left:100%;
+	background: #fff;
+}
+.phone-details-container{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    padding: 20px;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+}
+.phone-close-details-item{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #444;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+}
+.phone-close-details-itemhover{
+	opacity:.5;
+}
